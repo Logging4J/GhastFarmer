@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "ghast-farmer",
   "version": "${version}",
-  "name": "Addon Template",
+  "name": "Ghast Farmer",
   "description": "An addon template for the Meteor addons.",
   "authors": [
-    "seasnail"
+    "Logging4J"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/Logging4J/GhastFarmer"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.Addon"
+      "dev.l4j.GhastFarmerAddon"
     ]
   },
   "mixins": [
